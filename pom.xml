@@ -39,6 +39,7 @@
                             <goal>single</goal>
                         </goals>
                         <configuration>
+                            <outputDirectory>${project.basedir}</outputDirectory>
                             <archive>
                                 <manifest>
                                     <mainClass>
